@@ -64,7 +64,8 @@ define KernelPackage/mt7628sta
   TITLE:=MTK MT7628 wifi STA driver
   FILES:=$(PKG_BUILD_DIR)/mt_wifi_sta/mt7628sta.ko
   AUTOLOAD:=$(call AutoLoad,90,mt7628sta)
-  DEPENDS:=@TARGET_ramips_mt7628 +kmod-cfg80211-normal +wpa-supplicant-20
+#  DEPENDS:=@TARGET_ramips_mt7628 +kmod-cfg80211-normal +wpa-supplicant-20
+  DEPENDS:=@TARGET_ramips_mt7628
   SUBMENU:=Drivers
   MENU:=1
 endef
