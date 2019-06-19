@@ -8,7 +8,7 @@ In OpenWrt/Lede, a ["feeds"](https://wiki.openwrt.org/doc/devel/feeds "feeds") i
 
 I assume that you already have a working OpenWrt/Lede workspace, then add the following line into "feeds.conf.default" (You will find it under the top dir of your workspace).
 
-    src-git mtk https://github.com/Nossiac/mtk-openwrt-feeds
+    src-git mtk https://github.com/Nossiac/mtk-driver.git
 
 then execute:
 
