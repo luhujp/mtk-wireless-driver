@@ -4,7 +4,7 @@ This repo is an **unofficial** MediaTek "feeds" for [OpenWrt](https://openwrt.or
 ## How can I use them?
 I assume that you already have a working OpenWrt workspace, then add the following line into "feeds.conf.default" (You will find it under the top dir of your workspace).
 
-    src-git mtk https://github.com/luuhungit/mtk-driver.git
+    src-git mtk https://github.com/luuhungit/mtk-wireless-driver.git
 
 then execute:
 
